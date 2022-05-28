@@ -6,11 +6,11 @@ gem "rails", "~> 7.0.3"
 gem "sprockets-rails"
 gem "puma", "~> 5.0"
 gem "importmap-rails"
-gem 'webpacker',  '4.0.7'
+gem 'webpacker'
 gem "turbo-rails"
 gem "stimulus-rails"
 gem "jbuilder"
-
+gem 'psych', '~> 3.1'
 gem "bootsnap", require: false
 gem "sassc-rails"
 

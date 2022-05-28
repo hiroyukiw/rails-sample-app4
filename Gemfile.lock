@@ -137,6 +137,7 @@ GEM
     nokogiri (1.13.6-x86_64-linux)
       racc (~> 1.4)
     pg (1.1.4)
+    psych (3.3.2)
     public_suffix (4.0.7)
     puma (5.6.4)
       nio4r (~> 2.0)
@@ -251,6 +252,7 @@ DEPENDENCIES
   jbuilder
   listen
   pg (= 1.1.4)
+  psych (~> 3.1)
   puma (~> 5.0)
   rails (~> 7.0.3)
   sassc-rails
@@ -264,7 +266,7 @@ DEPENDENCIES
   tzinfo-data
   web-console
   webdrivers
-  webpacker (= 4.0.7)
+  webpacker
 
 BUNDLED WITH
    2.3.10
